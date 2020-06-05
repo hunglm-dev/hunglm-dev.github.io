@@ -1,0 +1,79 @@
+.header{
+    height: 600px;
+    background-image: url("/img/work-coner.jpg");
+    background-size: cover;
+}
+.contact{
+    background-color: orange;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+}
+.icon-block{
+    line-height: 3rem;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+.content{
+    padding-top: 200px;
+}
+.my-info{
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    bottom: -300px;
+}
+.margin{
+    margin: 30px 0;
+}
+.social-link {
+    margin-top: 15px;
+    font-size: 2rem;
+}
+.img-avatar{
+    position: relative;
+    top: -150px;
+    z-index: 10;
+}
+.my-avatar{
+    width: 250px;
+    border-radius: 50%;
+}
+.about-me{
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.head-span{
+    width: 100px;
+    border: 5px solid orange;
+    border-radius: 5px;
+}
+.about-me .about-me-content{
+    text-align: justify;
+}
+/**/
+.skill{
+    margin-top: 20px;
+}
+
+.skill .skill-title{
+    margin-bottom: 10px;
+}
+.work-exp{
+    padding: 50px 0;
+    background-color: #28023D;
+    color: white;
+}
+.project{
+    padding: 50px 0;
+}
+.fa-award{
+    margin-right: 10px;
+    color: orange;
+}
+.demo{
+    width: 100%;
+    margin: 15px auto;
+}
