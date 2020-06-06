@@ -1,15 +1,25 @@
+body{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1.2rem;
+}
 .header{
     height: 600px;
     background-image: url("/img/work-coner.jpg");
     background-size: cover;
 }
 .contact{
-    background-color: orange;
     color: white;
-    padding: 30px 10px;
-    border-radius: 15px;
     position: relative;
     top: 50px;
+}
+.contact-item {
+    margin-top: 10px;
+    padding: 30px 10px;
+    border-radius: 15px;
+    background-color: #FFA804;
+}
+h3 {
+    font-weight: 650;
 }
 .icon-block{
     line-height: 3rem;
@@ -17,7 +27,19 @@
     margin-right: 20px;
 }
 .content{
-    padding-top: 200px;
+    padding-top: 300px;
+}
+.my-name{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+.my-job{
+    color: rgb(226, 166, 55);
+    font-weight: 550;
+    font-size: 1.4rem;
 }
 .my-info{
     position: relative;
@@ -25,8 +47,11 @@
     background-color: white;
     bottom: -300px;
 }
+.progress{
+    height: 5px;
+}
 .margin{
-    padding: 30px 0;
+    padding: 50px 0;
 }
 .social-link {
     margin-top: 15px;
@@ -42,16 +67,24 @@
     border-radius: 50%;
 }
 .about-me{
-    margin-top: 50px;
     padding: 30px 0;
 }
 .head-span{
     width: 100px;
-    border: 5px solid orange;
+    border: 5px solid #FFA804;
     border-radius: 5px;
 }
 .about-me .about-me-content{
     text-align: justify;
+}
+.job-title{
+    color: #FFA804; 
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.archive{
+    font-style: italic;
 }
 /**/
 .skill{
@@ -60,6 +93,13 @@
 
 .skill .skill-title{
     margin-bottom: 10px;
+}
+.skill-title .float-left{
+    font-weight: 500;
+}
+.skill-title i {
+    color: orangered;
+    margin-right: 10px;
 }
 .work-exp{
     padding: 50px 0;
@@ -71,9 +111,32 @@
 }
 .fa-award{
     margin-right: 10px;
-    color: orange;
+    color: #FFA804;
 }
 .demo{
     width: 100%;
     margin: 15px auto;
+}
+.list-title{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFA804;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+.break-line{
+   border-bottom: 3px solid #28023D;
+}
+footer{
+    margin: 25px auto;
+    font-size: 1rem;
+    color: gray;
+}
+footer a{
+    margin: auto 15px;
+    color: #FFA804;
+}
+footer .d-flex div {
+    margin: auto 15px;
 }

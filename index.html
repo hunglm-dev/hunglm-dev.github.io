@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fontawesome-free-5.13.0-web/css/all.min.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Lê Minh Hùng</title>
@@ -18,7 +20,7 @@
         <div class="container">
             <!--Block My-Info Start-->
             <div class="row contact">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 contact-item">
                     <div class="icon-block d-block float-left">
                         <i class="fas fa-map-marker"></i>
                     </div>
@@ -30,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 clearfix">
+                <div class="col-12 col-md-6 clearfix contact-item">
                     <div class="icon-block d-block float-left">
                         <i class="far fa-id-badge"></i>
                     </div>
@@ -51,10 +53,10 @@
                 <div class="col-12 col-md-3"></div>
                 <div class="my-info col-12 col-md-6">
                     <div class="img-avatar align-self-end text-center">
-                        <img class="my-avatar" src="img/my-avatar.jpg">
+                        <img class="my-avatar" src="img/ava.jpeg">
                         <div>
-                            <h2>Lê Minh Hùng</h2>
-                            <p>Java Developer</p>
+                            <h2 class="my-name">Lê Minh Hùng</h2>
+                            <p class="my-job">Java Developer</p>
                         </div>
                         <div>
                             <b>BORN: </b> <span>May 3, 1995</span>
@@ -82,44 +84,57 @@
         <div class="row about-me">
             <div class="col-12 col-md-4 float-right">
                 <div class="head-span"></div>
-                About Me
+                <span class="list-title">About Me</span>
             </div>
             <div class="col-12 col-md-8">
                 <div class="about-me-content">
-                    I am a Java programmer. Knowledge of Java Core, OOP ... <br>
-                    Have experience working with Spring Framework and have certain knowledge about relational databases such as MS SQL-Server.
+                    I am a Fresher Java Developer. Knowledge of Java Core, OOP ... <br>
+                    Have experience working with Spring Framework and have certain knowledge about relational databases
+                    such as MS SQL-Server.
                 </div>
                 <div class="skill">
-                    <div class="skill-java mb-4">
+                    <div class="skill-java mb-3">
                         <div class="clearfix skill-title">
-                            <span class="float-left">Java</span>
+                            <span class="float-left"><i class="fab fa-java"></i>Java</span>
                             <span class="float-right">90%</span>
                         </div>
                         <div>
                             <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" 
-                                style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="skill-java mb-4">
+                    <div class="skill-java mb-3">
                         <div class="clearfix skill-title">
-                            <span class="float-left">SQL</span>
+                            <span class="float-left"><i class="fas fa-database"></i>SQL</span>
                             <span class="float-right">80%</span>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar1" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
+                            <div class="progress-bar" role="progressbar1" style="width: 80%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
                     </div>
-                    <div class="skill-java mb-4">
+                    <div class="skill-java mb-3">
                         <div class="clearfix skill-title">
-                            <span class="float-left">HTML, CSS</span>
+                            <span class="float-left"><i class="fab fa-angular"></i>Angular 2+</span>
+                            <span class="float-right">75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar2" style="width: 75%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-java mb-3">
+                        <div class="clearfix skill-title">
+                            <span class="float-left"><i class="fab fa-html5"></i>HTML, CSS</span>
                             <span class="float-right">90%</span>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar2" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
+                            <div class="progress-bar bg-success" role="progressbar2" style="width: 90%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,7 +147,7 @@
             <div class="row about-me">
                 <div class="col-12 col-md-4 float-right">
                     <div class="head-span"></div>
-                    Objective
+                    <span class="list-title">Objective</span>
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="about-me-content">
@@ -163,15 +178,15 @@
     </div>
     <!--Objective End-->
     <!--Work Exp Start-->
-    <div class="container margin">
-        <div class="row">
+    <div class="container ">
+        <div class="row margin">
             <div class="col-12 col-md-4 float-right">
                 <div class="head-span"></div>
-                Work Experience
+                <span class="list-title">Work Experience</span>
             </div>
             <div class="col-12 col-md-8 text-justify">
-                <h3>VIETTEL DIGITAL</h3>
-                <div>Technical support staff </div>
+                <h3 style="margin: 0 auto;">VIETTEL DIGITAL</h3>
+                <div class="job-title">Technical support staff </div>
                 <h5>August 2019 – Present</h5>
                 <div class="text-justify">
                     <ul>
@@ -187,7 +202,7 @@
                         </li>
                         <li>Support partners to integrate API into Viettel Pay system.</li>
                     </ul>
-                    <div>
+                    <div class="archive">
                         <i class="fas fa-award"></i>Improve knowledge about Java, Spring boot framework, Spring
                         Security, Thymeleaf… </br>
                         <i class="fas fa-award"></i>Capable of using git, docker … </br>
@@ -204,7 +219,7 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="head-span"></div>
-                    Projects
+                    <span class="list-title">Projects</span>
                 </div>
                 <div class="col-12 col-md-8">
                     <h3>EDUHOME ONLINE TRAINING SYSTEM</h3>
@@ -214,7 +229,7 @@
                     <div>
                         <b>Team size: </b>Five members.
                     </div>
-                    <div><i class="fas fa-award"></i>
+                    <div class="archive"><i class="fas fa-award"></i>
                         Learning how to write Restful API with Spring boot, building an Angular application.
                         Integrated Json Web Token, Spring Security, Google Drive API...</br>
                         <i class="fas fa-award"></i>
@@ -236,20 +251,20 @@
     </div>
     <!--Projects End-->
     <!--Education Start-->
-    <div class="container margin">
-        <div class="row">
+    <div class="container ">
+        <div class="row margin">
             <div class="col-12 col-md-4 float-right">
                 <div class="head-span"></div>
-                Education
+                <span class="list-title">Education</span>
             </div>
             <div class="col-12 col-md-8 text-justify">
                 <h3>FPT POLYTECHNIC, HCMC</h3>
-                <div>GRADUATED IN MAY 2020 (2.5 YEARS)</div>
+                <div style="color: gray; font-weight: 600; margin-bottom: 15px;">GRADUATED IN MAY 2020 (2.5 YEARS)</div>
                 <div>
                     <b>Specialized:</b>
                     Computer Programming
                 </div>
-                <div>
+                <div class="archive">
                     <i class="fas fa-award"></i>
                     Achieving excellent results with an average score of 8.9.
                 </div>
@@ -258,8 +273,42 @@
     </div>
     <!--Education End-->
     <!--Container End-->
+    <!--Footer Start-->
+    <div class="container">
+        <div class="break-line"></div>
+    </div>
+    <footer class="container-fluid">
+        <div class="text-center">
+            <img src="img/logo.png" width="100px">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="d-md-flex justify-content-center">
+                    <div class="text-center">
+                        hunglm.dev@gmail.com
+                    </div>
+                    <div class="text-center">
+                        0962284841
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.facebook.com/hunglm.dev"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/hunglm-dev"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer End-->
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
 </html>
