@@ -112,6 +112,23 @@ h3 {
 .project{
     padding: 50px 0;
 }
+.project .org-link{
+    color: #e6de50;
+}
+.project .ext-link{
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 100;
+}
+.ext-link a {
+    font-size: 1.1rem;
+    /* text-decoration: underline; */
+    text-decoration: underline gray;
+}
+.ext-link a:hover{
+    font-weight: 500;
+    color: #FFA804;
+}
 .fa-award{
     margin-right: 10px;
     color: #FFA804;
