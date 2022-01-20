@@ -94,8 +94,17 @@ h3 {
     margin-top: 20px;
 }
 
+.skill-icon {
+    font-size: 30pt;
+}
+
+.skill-item {
+    display: inline;
+}
+
 .skill .skill-title{
     margin-bottom: 10px;
+    line-height: 2rem;
 }
 .skill-title .float-left{
     font-weight: 500;
