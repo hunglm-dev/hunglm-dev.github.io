@@ -1,123 +1,96 @@
-body {
+body{
     font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 1rem;
-    background-color: #28023D;
-    color: white;
+    font-size: 1.2rem;
 }
-
-.header {
-    padding-top: 50px;
-    /* height: 400px;*/
-    /* background-image: url("/img/work-coner.jpg"); */
+.header{
+    height: 600px;
+    background-image: url("/img/work-coner.jpg");
     background-size: cover;
 }
-
-.header-gaps {
-    min-height: 250px;
-}
-
-.contact {
+.contact{
     color: white;
     position: relative;
     top: 50px;
 }
-
 .contact-item {
     margin-top: 10px;
     padding: 30px 10px;
     border-radius: 15px;
     background-color: #FFA804;
 }
-
 h3 {
     font-weight: 650;
 }
-
-h3 a {
-    color: white;
-}
-
-.icon-block {
+.icon-block{
     line-height: 3rem;
     font-size: 1.5rem;
     margin-right: 20px;
 }
-
-.content {
-    padding-top: 20px;
+.content{
+    padding-top: 300px;
 }
-
-.my-name {
-    font-size: 2rem;
-    /* margin-top: 10px;
-    margin-bottom: 0px; */
+.my-name{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 600;
 }
-
-.my-job {
+.my-job{
     color: rgb(226, 166, 55);
     font-weight: 550;
     font-size: 1.4rem;
 }
-
-.my-info {
-    margin: 0;
+.my-info{
+    position: relative;
+    margin: 0 auto;
     background-color: white;
+    bottom: -300px;
 }
-
-.progress {
+.progress{
     height: 5px;
 }
-
-.margin {
+.margin{
     padding: 50px 0;
 }
-
-.heading {
+.heading{
     padding-bottom: 30px;
 }
-
 .social-link {
     margin-top: 15px;
     font-size: 2rem;
 }
-
-.img-avatar {
+.img-avatar{
+    position: relative;
+    top: -150px;
     z-index: 10;
 }
-
-.my-avatar {
+.my-avatar{
     width: 250px;
+    border-radius: 50%;
 }
-
-.about-me {
-    padding: 10px 0;
+.about-me{
+    padding: 30px 0;
 }
-
-.head-span {
+.head-span{
     width: 100px;
     border: 5px solid #FFA804;
     border-radius: 5px;
 }
-
-.about-me .about-me-content {
+.about-me .about-me-content{
     text-align: justify;
 }
-
-.job-title {
-    color: #FFA804;
+.job-title{
+    color: #FFA804; 
     font-size: 1.3rem;
     margin-bottom: 15px;
     font-weight: 500;
 }
-
-.archive {
+.archive{
     font-style: italic;
 }
-
 /**/
-.skill {
+.skill{
     margin-top: 20px;
 }
 
@@ -129,97 +102,69 @@ h3 a {
     display: inline;
 }
 
-.skill .skill-title {
+.skill .skill-title{
     margin-bottom: 10px;
     line-height: 2rem;
 }
-
-.skill-title .float-left {
+.skill-title .float-left{
     font-weight: 500;
 }
-
 .skill-title i {
     color: orangered;
     margin-right: 10px;
 }
-
-.work-exp {
+.work-exp{
     padding: 50px 0;
     background-color: #28023D;
     color: white;
 }
-
-.project {
+.project{
     padding: 50px 0;
 }
-
-.project .org-link {
-    color: #03a855;
+.project .org-link{
+    color: #e6de50;
 }
-
-.project .ext-link {
+.project .ext-link{
     margin-top: 10px;
     font-style: italic;
     font-weight: 100;
 }
-
 .ext-link a {
     font-size: 1.1rem;
     /* text-decoration: underline; */
     text-decoration: underline gray;
 }
-
-.ext-link a:hover {
+.ext-link a:hover{
     font-weight: 500;
     color: #FFA804;
 }
-
-.fa-award {
+.fa-award{
     margin-right: 10px;
     color: #FFA804;
 }
-
-.demo {
+.demo{
     width: 100%;
     margin: 15px auto;
 }
-
-.list-title {
+.list-title{
     font-family: 'Lexend Deca', sans-serif;
     color: #FFA804;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
-.my-badge {
-    background-color: rgb(255, 255, 255);
-    color:  #28023D;
-    text-align: center;
-    font-weight: 700;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 1rem;
-    min-height: 1rem;
-    height: 1rem;
-    line-height: 1rem;
+.break-line{
+   border-bottom: 3px solid #28023D;
 }
-
-.break-line {
-    border-bottom: 3px solid #28023D;
-}
-
-footer {
+footer{
     margin: 25px auto;
     font-size: 1rem;
     color: gray;
 }
-
-footer a {
+footer a{
     margin: auto 15px;
     color: #FFA804;
 }
-
 footer .d-flex div {
     margin: auto 15px;
 }
